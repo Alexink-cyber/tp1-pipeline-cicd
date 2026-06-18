@@ -6,7 +6,7 @@ const { add, subtract } = require('../src/calc');
 describe('Module calc', () => {
   describe('add', () => {
     test('additionne deux entiers positifs', () => {
-      expect(add(2, 3)).toBe(6);
+      expect(add(2, 3)).toBe(5);
     });
 
     test('additionne des nombres negatifs', () => {
